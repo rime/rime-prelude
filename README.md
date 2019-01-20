@@ -2,7 +2,7 @@
 
 配方： ℞ **prelude**
 
-[Rime](http://rime.im) 輸入法基礎配置
+[Rime](https://rime.im) 輸入法基礎配置
 
 提供 `default.yaml` 及常用 Rime 組件的默認配置
 
