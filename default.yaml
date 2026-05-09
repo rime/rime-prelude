@@ -5,9 +5,7 @@ config_version: '0.50'
 
 schema_list:
   - schema: luna_pinyin
-  - schema: luna_pinyin_simp
   - schema: bopomofo
-  - schema: bopomofo_tw
   - schema: cangjie5
   - schema: quick5
   - schema: stroke
