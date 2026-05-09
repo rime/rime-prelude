@@ -47,10 +47,15 @@ key_binder:
       - key_bindings:/numbered_mode_switch
 
 selector:
-  bindings:
-    ISO_Left_Tab: previous_candidate
-    Shift+Tab: previous_candidate
-    Tab: next_candidate
+  __patch:
+    bindings:
+      __include: key_bindings:/rotate_candidate_with_tab
+    linear/bindings:
+      __include: key_bindings:/rotate_candidate_with_tab
+    vertical/bindings:
+      __include: key_bindings:/rotate_candidate_with_tab
+    vertical/linear/bindings:
+      __include: key_bindings:/rotate_candidate_with_tab
 
 recognizer:
   patterns:
